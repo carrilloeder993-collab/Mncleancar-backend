@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import auth, services, bookings, coupons, expenses, admin
+import auth, services, bookings, coupons, expenses, admin
 
 app = FastAPI(title="MN Clean Car API")
 
